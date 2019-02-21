@@ -6,7 +6,7 @@ client.on('ready',() => {
 });
   
 client.on('message', message => {
-  if (message.content === '@JonesTheGreyshell#2090') {
+  if (message.content === '@JonesTheGreyshell') {
    message.reply ("Hello! Welcome to the Memory Dust Development Server. Go ahead and sit down- I'm baking some cookies!");
   }
 });
