@@ -6,8 +6,11 @@ client.on('ready',() => {
 });
   
 client.on('message', message => {
-  if (message.content === 'ping') {
-   message.reply ('pong');
+  if (message.content === '@jones') {
+   message.reply ('Hello! How can I help you??');
+    if(message.content == 'tell me a story'){
+     message.reply('Well, Im not so good with words"); 
+    }
   }
 });
 
